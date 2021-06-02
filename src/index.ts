@@ -1,10 +1,10 @@
 const AndroidIntentsURI = (
-  schema: string,
+  scheme: string,
   host: string,
   path: string,
   packageName: string
 ) => {
-  return `intent://${host}/${path}#Intent;package=${packageName};scheme=${schema};end;`;
+  return `intent://${host}/${path}#Intent;package=${packageName};scheme=${scheme};end;`;
 };
 
 export default AndroidIntentsURI;

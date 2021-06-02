@@ -1,5 +1,8 @@
 # android-intents-uri
 
+https://developer.chrome.com/docs/multidevice/android/intents/
+
+
 ## Usage
 
 ```ts
